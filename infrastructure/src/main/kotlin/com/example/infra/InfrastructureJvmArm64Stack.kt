@@ -1,4 +1,4 @@
-package nl.vintik.sample.infra
+package com.example.infra
 
 import software.amazon.awscdk.Duration
 import software.amazon.awscdk.Stack

@@ -9,11 +9,11 @@ dependencies {
 }
 
 application {
-    mainClass.set("nl.vintik.sample.infra.InfrastructureAppKt")
+    mainClass.set("com.example.infra.InfrastructureAppKt")
 }
 
 tasks.named("run") {
-    dependsOn(":products:packageDistribution")
+    dependsOn(":example:packageDistribution")
 }
 repositories {
     mavenCentral()
