@@ -1,4 +1,4 @@
-name: Kotlin Lambda SnapStart Example CI/CD
+name: Kotlin Lambda Example CI/CD
 on:
   push:
     branches: [ feature-* ]

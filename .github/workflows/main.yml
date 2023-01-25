@@ -1,7 +1,7 @@
-name: Kotlin Lambda SnapStart Example CI/CD
+name: Kotlin Lambda Example CI/CD
 on:
   push:
-    branches: [ nodeploy_main ]
+    branches: [ main ]
     paths-ignore:
       - '**.md'
   workflow_dispatch:
