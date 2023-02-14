@@ -57,7 +57,7 @@ jobs:
           # Duration after which artifact will expire in days. 0 means using default retention.
           retention-days: 1
 
-  deploy-table:
+  deploy-app:
     runs-on: ubuntu-latest
     needs: [ build ]
     name: Table deploy
